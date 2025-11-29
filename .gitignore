@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# OS-specific
+.DS_Store
+
+# Environment variables
+.env
+
+# Lock file
+package-lock.json
+
+# HTTP test files
+*.http

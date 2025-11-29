@@ -1,0 +1,105 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  background-color: #d9d4c3;
+  color: #665f4a;
+  padding: 3%;
+}
+
+footer {
+  background-color: #d9d4c3;
+  color: #665f4a;
+  padding: .5%;
+  margin-top: 5%;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #fbf8ef;  /* slightly off-white */
+  color: #665f4a;  /* dark green */
+  margin: 1%;
+  padding: 1%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-table {
+  margin-left: 15%; /* approx center table as if icons not there */
+}
+
+tr th {
+  border: none; /* no border to give illusion icons not in table */
+  color: #fbf8ef;
+  padding: 3%;
+  background-color: #9f9882; /* mid-green */
+  letter-spacing: 2px;
+}
+
+tr td {
+  border: 1px dotted #9f9882;
+  color: #6c685b; 
+  padding: 1.5%;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.td-button {
+  border: none;
+}
+
+.table-icon {
+  margin: 2%;
+  height: 20px; 
+  width: 20px;
+}
+
+h2 {
+  background-color: #d9d4c3;
+  width: 80%;
+  margin: 2% auto;
+}
+
+input, select {
+  font-family: system-ui, sans-serif;
+  margin: 1%;
+  padding: 1%;
+  width: 100%;
+}
+
+button {
+  font-family: system-ui, sans-serif;
+  font-weight: bold;
+  background-color: #9f9882;
+  color: #fbf8ef;
+  letter-spacing: 2px;
+  border-radius: 45px;
+}
+
+.app-nav {
+  margin: 2%;
+  padding: 2%;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: 550;
+}
+.app-nav a, 
+.app-nav a:visited {
+  margin: 3%;
+  padding: 1.25% 2.5%; 
+  color: #fbf8ef;
+  background-color: #6c685b;
+  text-decoration: none;
+  border-radius: 45px;
+}  
+.app-nav a:hover {
+  background-color: #9f9882;
+}
